@@ -1,0 +1,76 @@
+
+.login{
+    -fx-background-color:  #034078;
+    -fx-opacity: 0.8;
+    -fx-background-radius: 100px;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+.login:hover{
+    -fx-opacity: 1;
+}
+.icon{
+    -fx-background-image:url("../photos/ico33.png");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+.Sidepanle{
+    -fx-background-color:  #001233;
+    -fx-opacity: 0.8;
+    -fx-background-radius : 10 0 0 10;
+}
+.title_button{
+    -fx-background-radius: 15px;
+}
+.dashboard,.add_user,.Modify_medicine,.add_medicine,.my_profile,.log_out,.Exit_app,.viewMedicine{
+    -fx-background-color:   #161a1d;
+    -fx-background-radius: 15px;
+}
+.dashboard:hover,.add_user:hover,.Modify_medicine:hover,.add_medicine:hover,.my_profile:hover,.log_out:hover,.Exit_app:hover,.viewMedicine:hover{
+    -fx-background-color:    #1852d7;
+}
+.btClose{
+    -fx-background-color: #fe340b;
+    -fx-background-radius: 100px;
+    -fx-opacity: 0.8;
+}
+.btminemize{
+    -fx-background-radius: 100px;
+    -fx-background-color:#ffea00;
+    -fx-opacity: 0.8;
+}
+
+.btClose:hover,.btminemize:hover{
+    -fx-opacity: 1;
+}
+.User_table{
+    -fx-background-radius:  15px;
+}
+
+.User_table .column-header {
+    -fx-background-color: #137547;
+}
+
+.User_table .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: white; /*or whatever you want*/
+  }
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}
+.bcg{
+    -fx-background-image:url("../photos/lksldkmls.jpg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="pan1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="204.0" style="-fx-background-radius: 20; -fx-background-color: #fff; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" stylesheets="@phaCss.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pro_pharmacy.Med_itemsController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="108.0" prefWidth="204.0">
+         <children>
+            <ImageView fx:id="med_image" fitHeight="108.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/Ashraf/Downloads/panadol.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Label layoutX="14.0" layoutY="113.0" prefHeight="20.0" prefWidth="56.0" text="Medicine" textFill="GREY" />
+      <Label layoutX="14.0" layoutY="155.0" prefHeight="20.0" prefWidth="48.0" text="Price" textFill="GREY" />
+      <Label layoutX="13.0" layoutY="133.0" prefHeight="20.0" prefWidth="48.0" text="Quantity" textFill="GREY" />
+      <Label layoutX="14.0" layoutY="175.0" prefHeight="20.0" prefWidth="66.0" text="Expiry Date" textFill="GREY" />
+      <Label fx:id="med_name" layoutX="88.0" layoutY="113.0" prefHeight="20.0" prefWidth="108.0" text="..............." textFill="GREEN" />
+      <Label fx:id="med_price" layoutX="89.0" layoutY="153.0" prefHeight="20.0" prefWidth="66.0" text="..............." textFill="GREEN" />
+      <Label fx:id="med_expiry" layoutX="89.0" layoutY="175.0" prefHeight="20.0" prefWidth="108.0" text="..............." textFill="GREEN" />
+      <Label fx:id="med_quantity" layoutX="88.0" layoutY="133.0" prefHeight="20.0" prefWidth="77.0" text="..............." textFill="GREEN" />
+      <Label layoutX="80.0" layoutY="116.0" text=":" />
+      <Label layoutX="79.0" layoutY="136.0" text=":" />
+      <Label layoutX="80.0" layoutY="156.0" text=":" />
+      <Label layoutX="80.0" layoutY="176.0" text=":" />
+   </children>
+</AnchorPane>
